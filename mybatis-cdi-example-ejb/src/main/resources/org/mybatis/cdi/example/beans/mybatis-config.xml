@@ -6,7 +6,7 @@
         <environment id="tomee">
             <transactionManager type="JDBC"/>
             <dataSource type="JNDI">
-                <property name="data_source" value="java:openejb/Resource/DummyDS"/>
+                <property name="data_source" value="jdbc/dummy"/>
                 <!-- data source should be defined in tomee.xml as follows:
                     <Resource id="DummyDS" type="DataSource">
                         JdbcDriver com.mysql.jdbc.Driver
